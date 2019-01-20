@@ -1,0 +1,33 @@
+1. Label- Area that display text
+   - Swing class is JLabel
+2. Text field= Area where user may type a single line of input from the keyboard
+   - Swing class is JTextField
+3. Combo Box- displays drop-down list along with a text field for shortcut to dropdown list. Combo because is a combination of text field and drop down list
+4. Check Box= component with check box
+5. List- List of selectable items
+6. Radio Button- component that has options to be slected or deselected
+7. Slider- Componenet that allows the user to select a value by moving a slider along a track
+8. Button- Button that causes action to occur
+   - Swing class is Jbutton
+9. Message Dialog- displays a message; "OK" button is also displayed
+10. Input Dialog- prompts the user for input and provides a text field with an "OK" and "Cancel" button.
+11. Container- a component that holds other components
+12. Frame- a container that can be displayed as a window.
+      - appears as a basic window with all the components such minimize and lose buttons
+13. Content pane- a container that is part of every JFRame object
+    - cannot be seen
+14. Content Panel- a container that can hold GUI components
+
+NOTES:
+1. Abstract Writing Toolkit is not as used because it's unpredictable how it will interact with an operating system
+   -AWT classes part of java.awt package
+      - import java.awt.*;
+      
+      
+2. Swing is mostly used because it doesn't use peer classes like AWT so it produces more consisten GUIs
+   - Swing classes are part of the javax.swing package
+      - import javax.swing.*;
+   -JOptionPane class is part of the swing package
+      - import javax.swing.JOptionPane;
+      - "showInputDialog" always returns the user's input as a string
+3.
